@@ -1,0 +1,43 @@
+body{
+    background-color:antiquewhite;
+}
+.banner-text h1{
+    text-align:center;
+    color:black;
+    padding-top: 108px;
+    
+    }
+.banner-text h1{
+    font-size: 50px;
+    font-family: 'Kaushan Script', cursive;
+}
+.upload-file{
+    top:50%;
+    left:50%;
+    font-weight: bold;
+    transform: translate(-50%,-50%);
+    position:absolute;
+}
+.upload-box{
+    font-size:16px;
+    font-weight: bold;
+    background: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px black;
+    width: 300px;
+    outline: none;
+}
+::-webkit-file-upload-button{
+    color: black;
+    font-weight: bold;
+    background: #DC143C;
+    padding:13px;
+    border:none;
+    border-radius: 50px;
+    box-shadow: 1px 0 1px #DC143C;
+    outline:none;
+}
+::-webkit-file-upload-button:hover{
+    background: #CD5C5C;
+}
+    
